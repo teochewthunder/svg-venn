@@ -13,16 +13,16 @@
 
 			circle
 			{
-				stroke: rgb(50, 50, 50);
-				stroke-width: 5;
+				stroke: rgb(150, 150, 150);
+				stroke-width: 0;
 				r: 150;
 			}
 
 			path
 			{
-				stroke: rgb(250, 50, 50);
-				stroke-width: 5;
-				d: path("M 400 310 q -95 -110 0 -220 q 95 110 0 220 Z");
+				stroke: rgb(150, 150, 150);
+				stroke-width: 0;
+				d: path("M 400 312 a 270 190 0 0 0 0 -223 a 270 190 0 0 0 0 223 Z");
 			}
 		</style>
 	</head>
@@ -31,7 +31,7 @@
 		<svg>
 			<circle cx="300" cy="200" fill="rgba(255, 0, 0, 0.5)"/>
 			<circle cx="500" cy="200" fill="rgba(0, 255, 0, 0.5)"/>
-			<circle cx="400" cy="370" fill="rgba(0, 0, 255, 0.5)"/>
+			<circle cx="400" cy="372" fill="rgba(0, 0, 255, 0.5)"/>
 
 <!-- 			<path d="M 352 228 q -12 -85, 48 -140 q 58 49, 48 140 q -50 -15, -96 0 Z" fill="rgba(255, 255, 0, 0.2)"/>
 
@@ -47,7 +47,20 @@
 				</g>
 			</g> -->
 
-			<path fill="rgba(255, 255, 0, 0.2)"/>
+			<path fill="rgba(100, 100, 0, 0.2)"/>
+
+			<g transform="translate(97 4)">
+				<g transform="rotate(120 352 228)">
+					<path fill="rgba(0, 100, 100, 0.2)"/>
+				</g>
+			</g>
+
+			<g transform="translate(-97 4)">
+				<g transform="rotate(-120 448 228)">
+					<path fill="rgba(100, 0, 100, 0.2)"/>
+				</g>
+			</g>
+
 			SVG not supported
 		</svg>
 	</body>
