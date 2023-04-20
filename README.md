@@ -9,3 +9,5 @@ Use the path tag, with `a` in the `d` attributes for the curves. What I did was 
 
 ## Text
 For one-liner text, it's a simple text tag. For multi-liners, we use tspan wthin the text tags with `dx` and `dy` attributes.
+
+*Note*: This code does not work well on older browsers. The CSS specs will not reflect in the styling.
